@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# SQLite database
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+
+# Streamlit / runtime logs
+*.log
+
+# Temporary / backup application files
+*_backup*.py
+
+# Colab / runtime artifacts
+*.tmp
+*.temp
+
+# OS files
+.DS_Store
+Thumbs.db
